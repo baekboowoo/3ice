@@ -336,11 +336,13 @@
             </div>
         </nav>
         <!-- 여기까지 복사 -->
-        <main class="">
-            <div class="o_subtitle" style="text-align: center; font-size: 1.3rem; border-bottom: 1px solid;border-top: 1px solid; height: 100px; line-height: 100px;">마이페이지</div>
-
-            <div class="boxalign rank" style="display: flex; justify-content: center;">
-                <div class="rank-di" style="border: 1px solid purple; "> 
+        <main style=" height: 400px; background-color: #ec73a8; display: flex; flex-direction: column; justify-content: space-between; ">
+           
+            <div class="o_subtitle" style="background-color: #FFFFFF; text-align: center; font-size: 1.3rem; border-bottom: 1px solid;border-top: 1px solid; height: 100px; line-height: 100px;">마이페이지</div>
+           
+        <div class="boxalign"> 
+            <div class=" rank" style="display: flex; justify-content: center;">
+                <div class="rank-di" style="border: 1px solid ; "> 
                     <img src="./image/vip-icon.png" style="width: 50px; height: 50px;" alt="">
                     <div class="">
                         <div>
@@ -354,56 +356,72 @@
                     <a href=""><span>등급별 해택</span></a>
                     <a href=""><span>설정</span></a>
                 </div>
-
             </div>
-            <div class="boxalign" style="border: 1px solid green;">
+        </div>
+                <div class="rank-btn" style="margin-top: 150px;">
                 <ul style="display: flex; text-align: center; justify-content: space-between;">
-                    <li style="border: 1px solid;"><a href=""><img src="./image/sale-icon.png" style="width: 15px; height: 15px;" alt="">쿠폰</a><img src="./image/arrow-pink.svg" style="width: 15px;height: 15px;" alt=""></li>
-                    <li style="border: 1px solid;"><a href=""><img src="./image/momey-icon.png" style="width: 15px; height: 15px;" alt="">결제관리</a><img src="./image/arrow-pink.svg" style="width: 15px;height: 15px;" </li>
-                    <li style="border: 1px solid;"><a href=""><img src="./image/bbabong-icon.png" style="width: 15px; height: 15px;" alt="">나의리뷰</a><img src="./image/arrow-pink.svg" style="width: 15px;height: 15px;"</li>
+                    <a href="" style="display: flex; justify-content: space-between;  background-color: #FFFFFF; width: 387px; height: 70px; font-size: 20px; color: #ec73a8;"><img src="./image/sale-icon.png" style="width: 70px; height: 70px;" alt="">쿠폰<img src="./image/arrow-pink.svg" style="width: 35px;height: 35px;" alt=""></a>
+                    <a href="" style="display: flex; justify-content: space-between;  background-color: #FFFFFF; width: 387px; height: 70px; font-size: 20px; color: #ec73a8;"><img src="./image/momey-icon.png" style="width: 70px; height: 70px;" alt="">결제관리<img src="./image/arrow-pink.svg" style="width: 35px;height: 35px;" alt=""></a>    
+                    <a href="" style="display: flex; justify-content: space-between;  background-color: #FFFFFF; width: 387px; height: 70px; font-size: 20px; color: #ec73a8;"><img src="./image/bbabong-icon.png" style="width: 70px; height: 70px;" alt="">나의리뷰<img src="./image/arrow-pink.svg" style="width: 35px;height: 35px;" alt=""></a>
                 </ul>
-            </div>
-
+                </div>
+            
+           
         </main>
         
-        <section class="boxalign notices" style="display: flex; justify-content: center; align-items: center;" >
-            <div style="display: flex; justify-content: space-between;"><h1>공지사항</h1><a href="">더보기</a></div>
-            <div class="noti-container" style="box-sizing: border-box; border: 1px solid;">
-                <label class="noti-item" style="display: flex; justify-content: space-between; align-items: center;">
-                    <div class="noti-ex">
-                    <span class="noti-title" >
-                        <h3>3ice in kakao 카드출시</h3>
+        <section class="notices" style="display: flex; height: 500px; background-color: #f1f1f1;" >
+            <div class="boxalign notices-in" style="display: flex;justify-content: center; align-items: center; flex-direction: column; ">
+            <div class="" style="display: flex; justify-content: space-between;width: 600px; padding-top: 160px;">
+                <div style="font-size: 40px;">공지사항</div>
+                <a style="display: block; padding-top: 30px;" href="">더보기</a>
+            </div>
+            
+            <div class="noti-container" style="margin-top:10px;margin-bottom:40px;width: 600px; height: 150px; border-radius: 13px; background-color: #FFFFFF;">
+                <label class="noti-item" style="display: flex; align-items: center;height:150px; justify-content: space-between; padding: 0 20px 0 20px;">
+                    <div class="noti-ex" style="display: flex; flex-direction: column;gap: 8px;">
+                        <div style="font-size: 12px;">
+                            <p style="color: #666;">2023.08.30</p>
+                        </div>
+                    <span class="noti-title" style="font-size: 15px; " >
+                        <p style="font-size: 18px; font-weight: bold;">3ice in kakao 카드출시</p>
                     </span>
-                    <span class="noti-subtitle">소상공인을 위한 착한소비 </span><br>
-                    <span class="noti-subtitle">중개 수수료 2% 카드결제 수수료 2.2% 24hr실시간 정산...</span>
-                </div>
-                <div class="noti-arrow">
-                    <a href=""><img src="./image/check-arrow.svg" alt="" style="width: 20px; height: 20px;"></a>
-                </div>
+                    
+                    <span class="noti-subtitle" style="display: block;">소상공인을 위한 착한소비 </span>
+                    <span class="noti-subtitle" style="display: block;">중개 수수료 2% 카드결제 수수료 2.2% 24hr실시간 정산...</span>
+                    </div>
+                    <div class="noti-arrow">
+                    <a href=""><img src="./image/check-arrow.svg" alt="" style="width: 35px; height: 35px;margin-top: 8px;"></a>
+                    </div>
                 </label>
             </div>
-            <div class="cancle-container" style="box-sizing: border-box; border: 1px solid;">
-                <label class="cancle-item" style="display: flex; justify-content: space-between; align-items: center;">
-                    <div class="cancle-ex">
-                    <span class="cancle-title">
-                        <h3>취소 시 수수료 변경 안내</h3>
+            
+
+            <div class="cancle-container" style="margin-top:10px;margin-bottom:40px;width: 600px; height: 150px; border-radius: 13px; background-color: #FFFFFF; margin-bottom: 200px;">
+                <label class="cancle-item" style="display: flex; align-items: center;height:150px; justify-content: space-between; padding: 0 20px 0 20px;">
+                    <div class="cancle-ex" style="display: flex; flex-direction: column;gap: 8px;">
+                        <div style="font-size: 12px;">
+                            <p style="color: #666;">2023.08.30</p>
+                        </div>
+                    <span class="cancle-title" style="font-size: 15px; " >
+                        <p style="font-size: 18px; font-weight: bold;">3ice in kakao 카드출시</p>
                     </span>
-                    <span class="cancle-subtitle">[취소 수수료],무통장 입금으로 결제 한 경우 취소 시 환불할 은행 계좌번호와</span><br>
-                    <span class="cancle-subtitle">예금주를 정확히 입력해주세요. 또한, 환불할 은행 계좌번호와 예금주를 정확히 입력...</span>
-                </div>
-                <div class="cancle-arrow">
-                    <a href=""><img src="./image/check-arrow.svg" alt="" style="width: 20px; height: 20px;"></a>
-                </div>
+                    
+                    <span class="cancle-subtitle" style="display: block;">소상공인을 위한 착한소비 </span>
+                    <span class="cancle-subtitle" style="display: block;">중개 수수료 2% 카드결제 수수료 2.2% 24hr실시간 정산...</span>
+                    </div>
+                    <div class="cancle-arrow">
+                    <a href=""><img src="./image/check-arrow.svg" alt="" style="width: 35px; height: 35px;margin-top: 8px;"></a>
+                    </div>
                 </label>
             </div>
+        
         </section>
         
-        <section class="boxalign qna">
-            
-            <h1 >문의사항</h1>
-
-            <div class="boxalign qna-box">
-                <div class="callpeople">
+        <section class="qna">
+            <div class="boxalign" style="width: 600px;">
+            <p>문의사항</p>
+            <div class="qna-box">
+                <div class="callpeople" style="padding: 20px;">
                     <a href="">
                         <div>
                             <strong>상담원 연결</strong>
@@ -415,20 +433,21 @@
                     </a>
                 </div>
 
-                <div class="chatbot" style="background-color: #EE8CCB; color:#FFFFFF ;  box-sizing: border-box; border-radius: 13%; margin: 30px; height: 200px; width: 300px;">
-                    <a href="" style="flex-direction: column; justify-content: center; height: 100%; display: flex; align-items: center;">
-                            <div style="line-height: 2; font-size: 1.5rem;">
+                <div class="chatbot" style="padding: 20px;" >
+                    <a href="" >
+                            <div>
                                <strong>챗봇 상담</strong> 
                             </div>
-                            <div style="font-size: 0.625rem; text-align: center;">
+                            <div>
                             <div>빠른상담과 해결을 도와드립니다.</div>
                             <div>제품이상에 관한 문의는 상담원으로 연결됩니다.</div>
                         </div>
                         </a>
                 </div>
             </div>
-            
-        </section>
+        </div>   
+    </section>
+
 
         <!-- footer 전체 다 복사 하면 됩니다 -->
         <footer>
