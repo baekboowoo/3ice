@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>집에가고 시퍼요...</title>
+    <title>마이페이지</title>
     <link rel="stylesheet" href="./css/myPage.css" />
     <link rel="stylesheet" href="./css/reset.css" />
 </head>
@@ -19,7 +19,7 @@
             <button class="close">&times;</button>
         </div>
 
-        <div class="ice_options">
+        <!-- <div class="ice_options">
             <div class="o_settions">설정</div>
             <button class="close">&times;</button>
               <a href="">
@@ -38,7 +38,7 @@
                     <span>회원탈퇴</span>
                     <img src="" alt="">
                   </a>
-          </div>
+          </div> -->
 
         <header>
             <div class="boxalign">
@@ -336,40 +336,41 @@
             </div>
         </nav>
         <!-- 여기까지 복사 -->
-        <main style=" height: 400px; background-color: #ec73a8; display: flex; flex-direction: column; justify-content: space-between; ">
+        <main style=" height: 400px; background-color: #ec73a8; position: relative; ">
            
-            <div class="o_subtitle" style="background-color: #FFFFFF; text-align: center; font-size: 1.3rem; border-bottom: 1px solid;border-top: 1px solid; height: 100px; line-height: 100px;">마이페이지</div>
+            <div class="o_subtitle" style="background-color: #FFFFFF; text-align: center; font-size: 1.3rem; border-bottom: 1px solid black;border-top: 1px solid black; height: 100px; line-height: 100px; color: #ec73a8;">마이페이지</div>
            
          
-            <div class="boxalign rank" style="display: flex; justify-content: center; border: 1px solid ;">
+            <div class="boxalign rank" style="display: flex; justify-content: center;  align-items: center; height: 300px; width: 600px;">
                 <div class="rank-di" style=" display: flex; justify-content: center; width: 1000px ;"> 
                     <img src="./image/vip-icon.png" style="width: 150px; height: 150px;" alt="">
-                    <div class=""  style="align-items: center;">
+                    <div class=""  style="margin-top: 50px; margin-left: 20px; flex:1">
                             <div>
-                                <span><strong>3ice</strong>님, 반갑습니다</span>
+                                <span style="font-size: 20px; color: #FFFFFF;"><strong style="font-size: 35px;">3T</strong>님, 반갑습니다</span>
                             </div>
-                            <div style="display: flex;">
+                            <div class="" style=" display: flex; color: #FFFFFF; font-size: 15px;">
                                 <p>이 달의 회원등급</p>
-                                <p>VIP</p>
+                                <div style="border: 1px solid #EE8CCB; width: 40px; border-radius: 50px; padding-left: 8px; background-color: #EE8CCB; ">
+                                    <p>VIP</p>
+                                </div>
                             </div>
-                        
                     </div>
-                    <div>
-                    <a href=""><span>등급별 해택</span></a>
+                    <div class="o_btn" style="color: #FFFFFF; ">
+                    <a href="" style="margin-right: 20px;"><span>등급별 혜택</span></a>
                     <a href=""><span>설정</span></a>
                 </div>
                 </div>
+                <div class="rank-btn" style=" position: absolute; top: 400px; left: 50%; transform: translate(-50%,-50%); ">
+                    <ul style="display: flex; text-align: center; justify-content: space-between;">
+                        <a href="" style="display: flex; justify-content: space-between;  background-color: #FFFFFF; width: 400px; height: 70px; font-size: 20px; color: #ec73a8;"><img src="./image/sale-icon.png" style="width: 70px; height: 70px;" alt="">쿠폰<img src="./image/arrow-pink.svg" style="width: 35px;height: 35px;" alt=""></a>
+                        <a href="" style="display: flex; justify-content: space-between;  background-color: #FFFFFF; width: 400px; height: 70px; font-size: 20px; color: #ec73a8; margin: 0 30px 0 30px;"><img src="./image/momey-icon.png" style="width: 70px; height: 70px;" alt="">결제관리<img src="./image/arrow-pink.svg" style="width: 35px;height: 35px;" alt=""></a>    
+                        <a href="" style="display: flex; justify-content: space-between;  background-color: #FFFFFF; width: 400px; height: 70px; font-size: 20px; color: #ec73a8;"><img src="./image/bbabong-icon.png" style="width: 70px; height: 70px;" alt="">나의리뷰<img src="./image/arrow-pink.svg" style="width: 35px;height: 35px;" alt=""></a>
+                    </ul>
+                    </div>
+
+
             </div>
-        
-                <div class="rank-btn" style="position: absolute; top: 61%; left: 50%; transform: translate(-50%,-50%);">
-                <ul style="display: flex; text-align: center; justify-content: space-between;">
-                    <a href="" style="display: flex; justify-content: space-between;  background-color: #FFFFFF; width: 387px; height: 70px; font-size: 20px; color: #ec73a8;"><img src="./image/sale-icon.png" style="width: 70px; height: 70px;" alt="">쿠폰<img src="./image/arrow-pink.svg" style="width: 35px;height: 35px;" alt=""></a>
-                    <a href="" style="display: flex; justify-content: space-between;  background-color: #FFFFFF; width: 387px; height: 70px; font-size: 20px; color: #ec73a8;"><img src="./image/momey-icon.png" style="width: 70px; height: 70px;" alt="">결제관리<img src="./image/arrow-pink.svg" style="width: 35px;height: 35px;" alt=""></a>    
-                    <a href="" style="display: flex; justify-content: space-between;  background-color: #FFFFFF; width: 387px; height: 70px; font-size: 20px; color: #ec73a8;"><img src="./image/bbabong-icon.png" style="width: 70px; height: 70px;" alt="">나의리뷰<img src="./image/arrow-pink.svg" style="width: 35px;height: 35px;" alt=""></a>
-                </ul>
-                </div>
-            
-           
+               
         </main>
         
         <section class="notices" style="display: flex; height: 500px; background-color: #f1f1f1;" >
