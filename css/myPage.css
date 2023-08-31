@@ -317,3 +317,20 @@ footer {
   }
     /* ---------------------------------------*/
 
+   /* 설정 흑백 관련 ---------------------------------------*/
+   .ice_options{
+    display: none;
+   }
+   .ice_options.active{
+    position: fixed;
+    opacity: 1;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    background: #0000008a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: "yg-jalnan";
+  }
