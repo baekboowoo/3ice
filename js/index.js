@@ -78,3 +78,17 @@ closeItems.forEach((closeItem) => {
     });
   });
 });
+
+//설정 창 열고 닫기 이벤트--------------------
+const closeItems1 = document.querySelectorAll(".close2");
+const settingspage = document.querySelectorAll(".ice_options");
+const settingsItems= document.querySelectorAll(".settingshref");
+
+closeItems1.forEach((closeItem) => {
+  closeItem.addEventListener("click", function () {
+    // 각 해당 검색 페이지에서 "active" 클래스 제거
+    settingspage.forEach((settingspage) => {
+      settingspage.classList.remove("active");
+    });
+  });
+});

@@ -328,12 +328,12 @@ footer {
 
    /* 설정 흑백 관련 ---------------------------------------*/
    .ice_options{
-    display: flex;
+    display: none;
    }
    .ice_options.active{
     position: fixed;
     opacity: 1;
-    z-index: 999;
+    z-index: 998;
     width: 100vw;
     height: 100vh;
     background: #0000008a;
@@ -342,4 +342,26 @@ footer {
     align-items: center;
     gap: 20px;
     font-family: "yg-jalnan";
+  }
+  .o_settions{
+    width: 500px;
+    height: 500px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+  .o_settingcloseBtn{
+    display: flex;
+    justify-content: center;
+  }
+  .close2{
+    font-size: 50px;
+    color: #919191;
+    display: block;
+    width: 40px;
+    height:40px;
+   
   }
