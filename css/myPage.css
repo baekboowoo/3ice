@@ -7,6 +7,19 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Handon3gyeopsal600g';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_seven@1.2/Handon3gyeopsal600g.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * { 
+ font-family: 'Noto Sans KR', sans-serif;
+}
+
 
 /* 여기서 부터 Main 전까지 복사 */
   
@@ -154,18 +167,246 @@
   }
   /*------------------------------------------------*/
 
+  /* main -------------------------------------------------*/
+  .main{
+    height: 400px;
+    background-color: #ec73a8; 
+    position: relative;
+  }
+  .o_subtitle{
+    background-color: #FFFFFF; 
+    text-align: center;
+    font-size: 20px; 
+    border-bottom: 1px solid black;
+    border-top: 1px solid black; 
+    height: 100px; 
+    line-height: 100px; 
+    font-weight: 800;
+    color: #ec73a8;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  .rank{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 300px; 
+    width: 600px;
+  }
+  .rank-di{
+    display: flex; 
+    justify-content: center; 
+    width: 1000px ;
+    
+  }
+  .rank-di>.vip-img{
+    width: 150px; 
+    height: 150px;
+  }
+  .rank-di>.rank-di-in{
+    margin-top: 50px; 
+    margin-left: 20px; 
+    flex:1;
+     font-family: 'Noto Sans KR', sans-serif;
+  }
+.rank-di>.rank-di-in>.title{
+  color: #FFFFFF;
+}
+.rank-di>.rank-di-in>.title>span{
+  font-size: 16px;
+}
+.rank-di>.rank-di-in>.title>span>strong{
+  font-size: 35px;
+}
+.rank-text{
+  display: flex; 
+  color: #FFFFFF; 
+  font-size: 13px;
+   font-family: 'Noto Sans KR', sans-serif;
 
+}
+.rank-text>.vip {
+  border: 1px solid #EE8CCB;
+   width: 40px; 
+   border-radius: 50px; 
+   padding-left: 8px; 
+   background-color: #EE8CCB; 
+    font-family: 'Noto Sans KR', sans-serif;
 
+} 
+.o_btn{
+  color: #FFFFFF;
+   font-family: 'Noto Sans KR', sans-serif;
+}
+.o_btn>a{
+  margin-right: 20px;
+   font-family: 'Noto Sans KR', sans-serif;
+}
+.o_btn>.settingshref{
+  cursor: pointer;
+}
+.rank-btn{
+  position: absolute; 
+  top: 400px; 
+  left: 50%;
+   transform: translate(-50%,-50%); 
+}
+.rank-btn>ul{
+  display: flex; 
+  text-align: center; 
+  justify-content: space-between;
+   font-family: 'Noto Sans KR', sans-serif;
+}
+.rank-btn>ul>a{
+  display: flex; 
+  justify-content: space-between;  
+  background-color: #FFFFFF; 
+  width: 400px; 
+  height: 70px; 
+  align-items: center;
+  font-size: 20px; 
+  color: #ec73a8;
+}
 
+.rank-btn>ul>.two-a{
+  margin: 0 30px 0 30px;
+}
+
+.rank-btn>ul>a>img{
+  width: 70px; height: 70px;
+}
+.rank-btn>ul>a>.arrow-pink{
+  width: 35px;height: 35px;
+}
+  /* notices -------------------------------------------------*/
+  .notices{
+    display: flex; 
+    height: 600px;
+    background-color: #f1f1f1;
+  }
+  .notices-in{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+  }
+  .gonggi{
+    display: flex; 
+    justify-content: 
+    space-between;
+    width: 700px;
+    font-family: "yg-jalnan";
+
+  }
+  .gonggi>div{
+    font-size: 40px;
+  }
+  .gonggi>a{
+    display: block; 
+    padding-top: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+  }
+  .noti-container{
+    margin-top:10px;
+    margin-bottom:40px;
+    width: 600px;
+    height: 150px;
+    border-radius: 13px; 
+    background-color: #FFFFFF;
+     
+
+  }
+  .noti-item{
+    display: flex;
+    align-items: center;
+    height:150px; 
+    justify-content: space-between; 
+    padding: 0 20px 0 20px;
+  }
+  .noti-ex{
+    display: flex; 
+    flex-direction: column;
+    gap: 8px;
+  }
+  .noti-day{
+    font-size: 12px;
+  }
+  .noti-day>p{
+    color: #666;
+  }
+  .noti-title {
+    font-size: 15px;
+     font-family: 'Noto Sans KR', sans-serif;
+
+  }
+  .noti-title>p{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .noti-subtitle{
+    display: block;
+     font-family: 'Noto Sans KR', sans-serif;
+
+  }
+  .noti-arrow>a>img{
+    width: 35px;
+     height: 35px;
+     margin-top: 8px;
+  }
+
+  .cancle-container{
+    margin-top:10px;
+    width: 600px; 
+    border-radius: 13px;
+     background-color: #FFFFFF;
+  }
+
+  .cancle-item {
+    display: flex;
+    align-items: center;
+    height:150px; 
+    justify-content: space-between; 
+    padding: 0 20px 0 20px;
+  }
+  .cancle-ex{
+    display: flex; 
+    flex-direction: column; 
+    gap: 8px;
+  }
+  .cancle-title{
+    font-size: 15px;
+     font-family: 'Noto Sans KR', sans-serif;
+
+  }
+  .cancle-title>p{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .cancle-subtitle{
+     font-family: 'Noto Sans KR', sans-serif;
+    display: block;
+  }
+  .cancle-arrow>a>img{
+    width: 35px; 
+    height: 35px;
+    margin-top: 8px;
+  
+  }
+  /* -------------------------------------------------*/
   /* QNA -------------------------------------------------*/
     .qna{
       background-color: #f1f1f1;
       height: 500px;
       
-    } 
+    }
+     .qna>.qna-con{
+      width: 700px;
+     }
     .qna>.boxalign>p{
       font-size: 40px;
       padding-top: 30px;
+        font-family: "yg-jalnan";
+
     }
     .qna>.boxalign>.qna-box{
       display: flex; 
@@ -180,7 +421,10 @@
        border-radius: 13%; 
        margin: 30px;
        height: 200px; 
-       width: 260px;
+       width: 400px;
+       padding: 20px;
+        font-family: 'Noto Sans KR', sans-serif;
+
     }
     .callpeople>a{
       align-items: center;
@@ -204,7 +448,10 @@
       border-radius: 13%;
        margin: 30px; 
        height: 200px; 
-       width: 260px;
+       width: 400px;
+       padding: 20px;
+        font-family: 'Noto Sans KR', sans-serif;
+
     }
     .chatbot>a{
       flex-direction: column; 
@@ -341,7 +588,8 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    font-family: "yg-jalnan";
+    font-family: 'Handon3gyeopsal600g';
+    font-weight: normal;
   }
   .o_settions{
     width: 500px;
@@ -349,19 +597,57 @@ footer {
     border-radius: 14px;
     background-color: #FFFFFF;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding: 0 40px 0 40px;
+    gap: 30px;
   }
   .o_settingcloseBtn{
-    display: flex;
-    justify-content: center;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+
+  }
+  .o_settingcloseBtn>div{
+    font-size: 30px;
+    font-family: "yg-jalnan";
+
   }
   .close2{
     font-size: 50px;
     color: #919191;
     display: block;
-    width: 40px;
-    height:40px;
-   
+  }
+  .close2:hover{
+    cursor: pointer;
+  }
+
+  .o_settingtitle{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    flex-direction: column;
+    height: 230px; 
+    width: 400px;
+    font-size: 20px;
+  }
+  
+  .o_settingtitle>a{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    width: 400px;
+    height: 50px;
+    align-items: center;
+  }
+  .o_settingtitle>a>span{
+    text-align: left;
+    font-family: 'Noto Sans KR', sans-serif;
+
+  }
+  .o_settingtitle>a>img{
+    display: block;
+    width: 30px; height:30px
   }

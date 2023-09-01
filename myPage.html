@@ -20,29 +20,28 @@
         </div>
 
 
-        <div class="ice_options active">
+        <div class="ice_options ">
             <div class="o_settions">
-                <div class="o_settingcloseBtn" style="justify-content: space-around;">
-                    <div style="font-size: 20px;">설정</div>
-                        <button class="close2" >&times;</button>
-                    </div>
-                <div style="display: flex; justify-content: space-around; align-items: center;flex-direction: column;height: 300px; width: 500px;font-size: 20px;">
-              <a href="">
-                  <span>회원정보 수정</span>
-                  <img style="width: 20px; height:20px" src="./image/o_settingArrow.svg" alt="">
-                </a>
-                <a href="">
-                    <span>배송지 관리</span>
-                    <img style="width: 20px; height:20px" src="./image/o_settingArrow.svg" alt="">
-                  </a>
-                  <a href="">
-                    <span>알림 설정</span>
-                    <img style="width: 20px; height:20px" src="./image/o_settingArrow.svg" alt="">
-                  </a>
-                  <a href="">
-                    <span>회원탈퇴</span>
-
-                  </a>
+                <div class="o_settingcloseBtn">
+                    <div>설정</div>
+                    <button class="close2">&times;</button>
+                </div>
+                <div class="o_settingtitle">
+                    <a href="">
+                        <span>회원정보 수정</span>
+                        <img src="./image/o_settingArrow.svg" alt="">
+                    </a>
+                    <a href="">
+                        <span>배송지 관리</span>
+                        <img src="./image/o_settingArrow.svg" alt="">
+                    </a>
+                    <a href="">
+                        <span>알림 설정</span>
+                        <img src="./image/o_settingArrow.svg" alt="">
+                    </a>
+                    <a href="">
+                        <span>회원탈퇴</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -343,126 +342,129 @@
             </div>
         </nav>
         <!-- 여기까지 복사 -->
-        <main style=" height: 400px; background-color: #ec73a8; position: relative; ">
-           
-            <div class="o_subtitle" style="background-color: #FFFFFF; text-align: center; font-size: 1.3rem; border-bottom: 1px solid black;border-top: 1px solid black; height: 100px; line-height: 100px; color: #ec73a8;">마이페이지</div>
-           
-         
-            <div class="boxalign rank" style="display: flex; justify-content: center;  align-items: center; height: 300px; width: 600px;">
-                <div class="rank-di" style=" display: flex; justify-content: center; width: 1000px ;"> 
-                    <img src="./image/vip-icon.png" style="width: 150px; height: 150px;" alt="">
-                    <div class=""  style="margin-top: 50px; margin-left: 20px; flex:1">
-                            <div>
-                                <span style="font-size: 20px; color: #FFFFFF;"><strong style="font-size: 35px;">3T</strong>님, 반갑습니다</span>
+        <main class="main">
+
+            <div class="o_subtitle">마이페이지</div>
+
+            <div class="boxalign rank">
+
+                <div class="rank-di">
+                    <img class="vip-img" src="./image/vip-icon.png" alt="">
+                    <div class="rank-di-in">
+                        <div class="title">
+                            <span><strong>3T</strong>님, 반갑습니다</span>
+                        </div>
+                        <div class="rank-text">
+                            <p>이 달의 회원등급</p>
+                            <div class="vip">
+                                <p>VIP</p>
                             </div>
-                            <div class="" style=" display: flex; color: #FFFFFF; font-size: 15px;">
-                                <p>이 달의 회원등급</p>
-                                <div style="border: 1px solid #EE8CCB; width: 40px; border-radius: 50px; padding-left: 8px; background-color: #EE8CCB; ">
-                                    <p>VIP</p>
-                                </div>
-                            </div>
+                        </div>
                     </div>
-                    <div class="o_btn" style="color: #FFFFFF; ">
-                    <a href="" style="margin-right: 20px;"><span>등급별 혜택</span></a>
-                    <a class="settingshref" href=""><span>설정</span></a>
+                    <div class="o_btn">
+                        <a href=""><span>등급별 혜택</span></a>
+                        <span class="settingshref">설정</span>
+                    </div>
                 </div>
-                </div>
-                <div class="rank-btn" style=" position: absolute; top: 400px; left: 50%; transform: translate(-50%,-50%); ">
-                    <ul style="display: flex; text-align: center; justify-content: space-between;">
-                        <a href="" style="display: flex; justify-content: space-between;  background-color: #FFFFFF; width: 400px; height: 70px; font-size: 20px; color: #ec73a8;"><img src="./image/sale-icon.png" style="width: 70px; height: 70px;" alt="">쿠폰<img src="./image/arrow-pink.svg" style="width: 35px;height: 35px;" alt=""></a>
-                        <a href="" style="display: flex; justify-content: space-between;  background-color: #FFFFFF; width: 400px; height: 70px; font-size: 20px; color: #ec73a8; margin: 0 30px 0 30px;"><img src="./image/momey-icon.png" style="width: 70px; height: 70px;" alt="">결제관리<img src="./image/arrow-pink.svg" style="width: 35px;height: 35px;" alt=""></a>    
-                        <a href="" style="display: flex; justify-content: space-between;  background-color: #FFFFFF; width: 400px; height: 70px; font-size: 20px; color: #ec73a8;"><img src="./image/bbabong-icon.png" style="width: 70px; height: 70px;" alt="">나의리뷰<img src="./image/arrow-pink.svg" style="width: 35px;height: 35px;" alt=""></a>
+                <div class="rank-btn">
+                    <ul>
+                        <a href=""><img src="./image/sale-icon.png" alt="">쿠폰<img class="arrow-pink"
+                                src="./image/arrow-pink.svg" alt=""></a>
+                        <a href="" class="two-a"><img src="./image/momey-icon.png" alt="">결제관리<img class="arrow-pink"
+                                src="./image/arrow-pink.svg" alt=""></a>
+                        <a href=""><img src="./image/bbabong-icon.png" alt="">나의리뷰<img class="arrow-pink"
+                                src="./image/arrow-pink.svg" alt=""></a>
                     </ul>
-                    </div>
-
-
-            </div>
-               
-        </main>
-        
-        <section class="notices" style="display: flex; height: 500px; background-color: #f1f1f1;" >
-            <div class="boxalign notices-in" style="display: flex;justify-content: center; align-items: center; flex-direction: column; ">
-            <div class="" style="display: flex; justify-content: space-between;width: 600px;">
-                <div style="font-size: 40px;">공지사항</div>
-                <a style="display: block; padding-top: 30px;" href="">더보기</a>
-            </div>
-            
-            <div class="noti-container" style="margin-top:10px;margin-bottom:40px;width: 600px; height: 150px; border-radius: 13px; background-color: #FFFFFF;">
-                <label class="noti-item" style="display: flex; align-items: center;height:150px; justify-content: space-between; padding: 0 20px 0 20px;">
-                    <div class="noti-ex" style="display: flex; flex-direction: column;gap: 8px;">
-                        <div style="font-size: 12px;">
-                            <p style="color: #666;">2023.08.30</p>
-                        </div>
-                    <span class="noti-title" style="font-size: 15px; " >
-                        <p style="font-size: 18px; font-weight: bold;">3ice in kakao 카드출시</p>
-                    </span>
-                    
-                    <span class="noti-subtitle" style="display: block;">소상공인을 위한 착한소비 </span>
-                    <span class="noti-subtitle" style="display: block;">중개 수수료 2% 카드결제 수수료 2.2% 24hr실시간 정산...</span>
-                    </div>
-                    <div class="noti-arrow">
-                    <a href=""><img src="./image/check-arrow.svg" alt="" style="width: 35px; height: 35px;margin-top: 8px;"></a>
-                    </div>
-                </label>
-            </div>
-            
-
-            <div class="cancle-container" style="margin-top:10px;width: 600px; border-radius: 13px; background-color: #FFFFFF;">
-                <label class="cancle-item" style="display: flex; align-items: center;height:150px; justify-content: space-between; padding: 0 20px 0 20px;">
-                    <div class="cancle-ex" style="display: flex; flex-direction: column; gap: 8px;">
-                        <div style="font-size: 12px;">
-                            <p style="color: #666;">2023.08.30</p>
-                        </div>
-                    <span class="cancle-title" style="font-size: 15px; " >
-                        <p style="font-size: 18px; font-weight: bold;">3ice in kakao 카드출시</p>
-                    </span>
-                    
-                    <span class="cancle-subtitle" style="display: block;">소상공인을 위한 착한소비 </span>
-                    <span class="cancle-subtitle" style="display: block;">중개 수수료 2% 카드결제 수수료 2.2% 24hr실시간 정산...</span>
-                    </div>
-                    <div class="cancle-arrow">
-                    <a href=""><img src="./image/check-arrow.svg" alt="" style="width: 35px; height: 35px;margin-top: 8px;"></a>
-                    </div>
-                </label>
-            </div>
-        
-        </section>
-        
-        <section class="qna">
-            <div class="boxalign" style="width: 600px;">
-            <p>문의사항</p>
-            <div class="qna-box">
-                <div class="callpeople" style="padding: 20px;">
-                    <a href="">
-                        <div>
-                            <strong>상담원 연결</strong>
-                        </div>
-                        <div class="call-ep">
-                        오전 10시부터 오후 10시까지 연결이 <br>
-                        가능하며, 이후로는 챗봇상담을 이용해 주세요.
-                        </div>
-                    </a>
                 </div>
 
-                <div class="chatbot" style="padding: 20px;" >
-                    <a href="" >
+
+            </div>
+
+        </main>
+
+        <section class="notices">
+            <div class="boxalign notices-in">
+                <div class="gonggi">
+                    <div>공지사항</div>
+                    <a href="">더보기</a>
+                </div>
+
+                <div class="noti-container">
+                    <label class="noti-item">
+                        <div class="noti-ex">
+                            <div class="noti-day">
+                                <p>2023.08.30</p>
+                            </div>
+                            <span class="noti-title">
+                                <p>3ice in kakao 카드출시</p>
+                            </span>
+
+                            <span class="noti-subtitle">소상공인을 위한 착한소비 </span>
+                            <span class="noti-subtitle">중개 수수료 2% 카드결제 수수료 2.2% 24hr실시간 정산...</span>
+                        </div>
+                        <div class="noti-arrow">
+                            <a href=""><img src="./image/check-arrow.svg" alt=""></a>
+                        </div>
+                    </label>
+                </div>
+
+
+                <div class="cancle-container">
+                    <label class="cancle-item">
+                        <div class="cancle-ex">
+                            <div class="noti-day">
+                                <p>2023.08.30</p>
+                            </div>
+                            <span class="cancle-title">
+                                <p>3ice in kakao 카드출시</p>
+                            </span>
+
+                            <span class="cancle-subtitle">소상공인을 위한 착한소비 </span>
+                            <span class="cancle-subtitle">중개 수수료 2% 카드결제 수수료 2.2% 24hr실시간 정산...</span>
+                        </div>
+                        <div class="cancle-arrow">
+                            <a href=""><img src="./image/check-arrow.svg" alt=""></a>
+                        </div>
+                    </label>
+                </div>
+
+        </section>
+
+        <section class="qna">
+            <div class="boxalign qna-con">
+                <p>문의사항</p>
+                <div class="qna-box">
+                    <div class="callpeople">
+                        <a href="">
                             <div>
-                               <strong>챗봇 상담</strong> 
+                                <strong>상담원 연결</strong>
+                            </div>
+                            <div class="call-ep">
+                                오전 10시부터 오후 10시까지 연결이 <br>
+                                가능하며, 이후로는 챗봇상담을 이용해 주세요.
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="chatbot">
+                        <a href="">
+                            <div>
+                                <strong>챗봇 상담</strong>
                             </div>
                             <div>
-                            <div>빠른상담과 해결을 도와드립니다.</div>
-                            <div>제품이상에 관한 문의는 상담원으로 연결됩니다.</div>
-                        </div>
+                                <div>빠른상담과 해결을 도와드립니다.</div>
+                                <div>제품이상에 관한 문의는 상담원으로 연결됩니다.</div>
+                            </div>
                         </a>
+                    </div>
                 </div>
             </div>
-        </div>   
-    </section>
+        </section>
 
 
         <!-- footer 전체 다 복사 하면 됩니다 -->
         <footer>
-            <div class="boxalign" >
+            <div class="boxalign">
                 <div class="sns">
                     <a href="javascript:;"><img src="./image/icon_blog.png" alt="페이스북" /></a>
                     <a href="javascript:;"><img src="./image/icon_instgram.png" alt="인스타그램" /></a>
